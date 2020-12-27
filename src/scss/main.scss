@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  background-image: url('../img/bg-pattern.png');
+}
+
+.contryName {
+  width: 50%;
+  padding: 8px 20px;
+  font-size: 24px;
+  box-sizing: border-box;
+
+  background-color: white;
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contryInfo-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+}
+.contryInfo-info div {
+  // width: 20%;
+  padding-right: 100px;
+}
+img {
+  display: block;
+  border: 3px solid black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.textSpn {
+  font-weight: normal;
+}
+
+.listLang {
+  font-size: 22px;
+}
+
+.infoContry-list {
+  font-size: 22px;
+  padding-top: 50px;
+  padding-left: 100px;
+}

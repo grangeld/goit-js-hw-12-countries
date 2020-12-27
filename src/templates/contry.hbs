@@ -1,0 +1,18 @@
+<h2 class="contryInfo-name">{{name}} / {{nativeName}}</h2>
+
+    <div class="contryInfo-info">
+        <div>
+            <h3>Capital: <span class="textSpn">{{capital}}</span></h3> 
+            <h3>Population: <span class="textSpn">{{population}}</span></h3>
+            <h3>Languages</h3>
+            <ul>
+                {{#each languages}}
+                <li class="listLang">{{name}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="contryInfo-flag">
+            <img src="{{flag}}" alt="Флаг" width="500px">
+        </div>
+    
+</div>
